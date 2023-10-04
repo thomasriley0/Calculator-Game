@@ -252,5 +252,8 @@ def generateQuestion(index):
             state.addPastQuestion(question_list)
         else:
             generateQuestion(index)
+
+if __name__ == '__main__':
+   startMathGame()
             
        
